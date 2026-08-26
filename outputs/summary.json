@@ -1,0 +1,5076 @@
+{
+  "assumptions": [
+    "Leave figures are expressed in weeks.",
+    "Blank/unreported values are excluded from averages, mins and maxes (they are not treated as zero).",
+    "For 'Total Paid Leave' (used in the top-5 ranking) an unreported paid-leave figure is treated as 0 weeks so a total can be computed.",
+    "3 companies (ASML, INK Communications Co., Rokt) had a blank Industry field and are grouped under 'Unknown'."
+  ],
+  "total_companies_analyzed": 1601,
+  "average_leave_weeks": {
+    "Paid Maternity Leave (weeks)": 10.91,
+    "Unpaid Maternity Leave (weeks)": 6.63,
+    "Paid Paternity Leave (weeks)": 7.33,
+    "Unpaid Paternity Leave (weeks)": 7.73
+  },
+  "industry_aggregations": {
+    "Accounting Services": {
+      "company_count": 13,
+      "Paid Maternity Leave": {
+        "mean": 11.85,
+        "min": 3.5,
+        "max": 51.0,
+        "n_reported": 13
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.25,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 12
+      },
+      "Paid Paternity Leave": {
+        "mean": 13.4,
+        "min": 1.0,
+        "max": 51.0,
+        "n_reported": 5
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Advertising": {
+      "company_count": 50,
+      "Paid Maternity Leave": {
+        "mean": 9.41,
+        "min": 1.0,
+        "max": 48.0,
+        "n_reported": 50
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.49,
+        "min": 0.0,
+        "max": 36.0,
+        "n_reported": 47
+      },
+      "Paid Paternity Leave": {
+        "mean": 11.0,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      }
+    },
+    "Advertising: Market Research": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 9.33,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Aerospace": {
+      "company_count": 9,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 4.0,
+        "max": 16.0,
+        "n_reported": 9
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.11,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 9
+      },
+      "Paid Paternity Leave": {
+        "mean": 7.2,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Arts & Entertainment": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 10.14,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 7.6,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 5.5,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      }
+    },
+    "Automotive: Dealers": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 5.5,
+        "min": 3.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Automotive: Manufacturers": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 11.25,
+        "min": 6.0,
+        "max": 24.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.75,
+        "min": 0.0,
+        "max": 14.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.5,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Automotive: Parts": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Automotive: Parts Manufacturing": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.67,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Automotive: Products & Services": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Business Services: Food & Hospitality": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 4.67,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 11.0,
+        "min": 10.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Business Services: Human Resources": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 19.9,
+        "min": 6.0,
+        "max": 36.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.4,
+        "min": 0.0,
+        "max": 25.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Business Services: Other": {
+      "company_count": 24,
+      "Paid Maternity Leave": {
+        "mean": 11.77,
+        "min": 2.0,
+        "max": 26.0,
+        "n_reported": 24
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.27,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 24
+      },
+      "Paid Paternity Leave": {
+        "mean": 8.0,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 2
+      }
+    },
+    "Business Services: Security": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 3.67,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.0,
+        "min": 0.0,
+        "max": 21.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Business Services: Staffing & Outsourcing": {
+      "company_count": 27,
+      "Paid Maternity Leave": {
+        "mean": 8.11,
+        "min": 0.0,
+        "max": 39.0,
+        "n_reported": 27
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 7.71,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 24
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Business Services: Technology Solutions": {
+      "company_count": 15,
+      "Paid Maternity Leave": {
+        "mean": 10.43,
+        "min": 4.0,
+        "max": 16.0,
+        "n_reported": 15
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.67,
+        "min": 0.0,
+        "max": 18.0,
+        "n_reported": 15
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Computer & Network Security": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 13.0,
+        "min": 13.0,
+        "max": 13.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Computer Software": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Conglomerate": {
+      "company_count": 10,
+      "Paid Maternity Leave": {
+        "mean": 15.05,
+        "min": 2.0,
+        "max": 52.0,
+        "n_reported": 10
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.06,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 9
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Consulting Services": {
+      "company_count": 47,
+      "Paid Maternity Leave": {
+        "mean": 12.03,
+        "min": 3.0,
+        "max": 52.0,
+        "n_reported": 47
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.91,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 47
+      },
+      "Paid Paternity Leave": {
+        "mean": 8.3,
+        "min": 1.0,
+        "max": 21.0,
+        "n_reported": 10
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 8.5,
+        "min": 5.0,
+        "max": 12.0,
+        "n_reported": 2
+      }
+    },
+    "Consumer Packaged Goods: Beverages": {
+      "company_count": 12,
+      "Paid Maternity Leave": {
+        "mean": 13.25,
+        "min": 3.0,
+        "max": 26.0,
+        "n_reported": 12
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 34.0,
+        "n_reported": 10
+      },
+      "Paid Paternity Leave": {
+        "mean": 10.67,
+        "min": 4.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      }
+    },
+    "Consumer Packaged Goods: Packaged Foods": {
+      "company_count": 17,
+      "Paid Maternity Leave": {
+        "mean": 10.35,
+        "min": 3.0,
+        "max": 26.0,
+        "n_reported": 17
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.79,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 17
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.67,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      }
+    },
+    "Consumer Packaged Goods: Packaged Products": {
+      "company_count": 11,
+      "Paid Maternity Leave": {
+        "mean": 17.0,
+        "min": 8.0,
+        "max": 52.0,
+        "n_reported": 11
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.11,
+        "min": 0.0,
+        "max": 31.0,
+        "n_reported": 9
+      },
+      "Paid Paternity Leave": {
+        "mean": 10.67,
+        "min": 8.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Consumer Packaged Goods: Tobacco": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 11.0,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Consumer Packaged Goods: Toys & Baby Products": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 6.0,
+        "max": 18.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.0,
+        "min": 0.0,
+        "max": 18.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 13.0,
+        "min": 13.0,
+        "max": 13.0,
+        "n_reported": 1
+      }
+    },
+    "Cosmetics": {
+      "company_count": 8,
+      "Paid Maternity Leave": {
+        "mean": 13.5,
+        "min": 12.0,
+        "max": 24.0,
+        "n_reported": 8
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.14,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 7.0,
+        "min": 6.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Defense & Space": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 5.79,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.43,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 7.0,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 2
+      }
+    },
+    "Design": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 10.67,
+        "min": 4.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.67,
+        "min": 8.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: College & Universities": {
+      "company_count": 52,
+      "Paid Maternity Leave": {
+        "mean": 9.14,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 52
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.39,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 49
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.17,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 6
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Educational Services: E-Learning": {
+      "company_count": 11,
+      "Paid Maternity Leave": {
+        "mean": 11.0,
+        "min": 2.0,
+        "max": 32.0,
+        "n_reported": 11
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 7.27,
+        "min": 0.0,
+        "max": 46.0,
+        "n_reported": 11
+      },
+      "Paid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: Management": {
+      "company_count": 8,
+      "Paid Maternity Leave": {
+        "mean": 7.75,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 8
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 19.43,
+        "min": 4.0,
+        "max": 52.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: Other": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 12.92,
+        "min": 3.0,
+        "max": 26.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.33,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: Preschool": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: Professional Training": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: School": {
+      "company_count": 10,
+      "Paid Maternity Leave": {
+        "mean": 11.2,
+        "min": 1.0,
+        "max": 42.0,
+        "n_reported": 10
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.38,
+        "min": 0.0,
+        "max": 14.0,
+        "n_reported": 8
+      },
+      "Paid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Educational Services: Tutoring": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Electronics: Manufacturing": {
+      "company_count": 14,
+      "Paid Maternity Leave": {
+        "mean": 8.14,
+        "min": 0.0,
+        "max": 15.0,
+        "n_reported": 14
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.25,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 14
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.67,
+        "min": 0.0,
+        "max": 2.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 9.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 2
+      }
+    },
+    "Engineering": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 14.0,
+        "min": 12.0,
+        "max": 16.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Asset Management": {
+      "company_count": 27,
+      "Paid Maternity Leave": {
+        "mean": 12.67,
+        "min": 0.0,
+        "max": 39.0,
+        "n_reported": 27
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 7.04,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 24
+      },
+      "Paid Paternity Leave": {
+        "mean": 10.2,
+        "min": 2.0,
+        "max": 18.0,
+        "n_reported": 5
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      }
+    },
+    "Finance: Credit & Fund Services": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 16.0,
+        "min": 12.0,
+        "max": 20.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 1.25,
+        "min": 0.0,
+        "max": 5.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 9.0,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Credit Unions": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Diversified": {
+      "company_count": 47,
+      "Paid Maternity Leave": {
+        "mean": 13.78,
+        "min": 2.0,
+        "max": 26.0,
+        "n_reported": 47
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.36,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 42
+      },
+      "Paid Paternity Leave": {
+        "mean": 8.13,
+        "min": 2.0,
+        "max": 20.0,
+        "n_reported": 19
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Life": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Loans": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 8.5,
+        "min": 4.0,
+        "max": 16.5,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.9,
+        "min": 0.0,
+        "max": 13.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Personal & Commercial Banking": {
+      "company_count": 23,
+      "Paid Maternity Leave": {
+        "mean": 13.52,
+        "min": 4.0,
+        "max": 28.0,
+        "n_reported": 23
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.04,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 23
+      },
+      "Paid Paternity Leave": {
+        "mean": 12.67,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Finance: Venture Capital": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 15.0,
+        "min": 12.0,
+        "max": 18.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": 18.0,
+        "min": 18.0,
+        "max": 18.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Government: City": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 7.2,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.4,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Government: Contractor": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 3.75,
+        "min": 1.5,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      }
+    },
+    "Government: County": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 19.25,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 14.5,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Government: Federal": {
+      "company_count": 18,
+      "Paid Maternity Leave": {
+        "mean": 10.33,
+        "min": 0.0,
+        "max": 46.0,
+        "n_reported": 18
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.25,
+        "min": 0.0,
+        "max": 15.0,
+        "n_reported": 18
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Government: International": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 14.0,
+        "min": 4.0,
+        "max": 24.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 17.33,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Government: State": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 8.67,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Animal Health": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 5.0,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Behavioral": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Biotechnology": {
+      "company_count": 15,
+      "Paid Maternity Leave": {
+        "mean": 10.57,
+        "min": 4.0,
+        "max": 17.0,
+        "n_reported": 15
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.93,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 15
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.5,
+        "min": 3.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Diversified": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 6.67,
+        "min": 4.0,
+        "max": 14.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.67,
+        "min": 0.0,
+        "max": 36.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 0.0,
+        "max": 4.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      }
+    },
+    "Healthcare: Family Care": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 7.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.67,
+        "min": 0.0,
+        "max": 8.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Hospitals & Clinics": {
+      "company_count": 38,
+      "Paid Maternity Leave": {
+        "mean": 5.24,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 38
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.97,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 31
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.4,
+        "min": 0.0,
+        "max": 2.0,
+        "n_reported": 5
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      }
+    },
+    "Healthcare: Laboratory Testing": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Healthcare: Medical Devices": {
+      "company_count": 18,
+      "Paid Maternity Leave": {
+        "mean": 10.56,
+        "min": 0.0,
+        "max": 39.0,
+        "n_reported": 18
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.76,
+        "min": 0.0,
+        "max": 18.0,
+        "n_reported": 17
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Products": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.0,
+        "min": 0.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Services": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 7.71,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.43,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Healthcare: Telemedicine": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 15.0,
+        "min": 15.0,
+        "max": 15.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": 30.0,
+        "min": 30.0,
+        "max": 30.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Hospitality": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Hospitality: Foodservice Distributors": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Hospitality: Hotels": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 14.86,
+        "min": 2.0,
+        "max": 50.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.67,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 4.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Hospitality: Meal Kit Delivery": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Hospitality: Resorts": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 7.0,
+        "min": 4.0,
+        "max": 8.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.5,
+        "min": 0.0,
+        "max": 8.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Hospitality: Restaurants": {
+      "company_count": 12,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 0.0,
+        "max": 40.0,
+        "n_reported": 12
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.44,
+        "min": 0.0,
+        "max": 30.0,
+        "n_reported": 9
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 29.0,
+        "min": 29.0,
+        "max": 29.0,
+        "n_reported": 1
+      }
+    },
+    "Industrial: Appliances & Furniture": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 9.12,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 13.38,
+        "min": 4.0,
+        "max": 27.5,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Industrial: Architecture & Design": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 6.5,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.6,
+        "min": 0.0,
+        "max": 10.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 3.0,
+        "min": 2.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Industrial: Building Materials Manufacturing": {
+      "company_count": 9,
+      "Paid Maternity Leave": {
+        "mean": 6.67,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 9
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.25,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 8
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      }
+    },
+    "Industrial: Construction Company": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 9.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 26.0,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Industrial: Diversified": {
+      "company_count": 10,
+      "Paid Maternity Leave": {
+        "mean": 7.3,
+        "min": 1.0,
+        "max": 12.0,
+        "n_reported": 10
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.8,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 10
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "n_reported": 1
+      }
+    },
+    "Industrial: Engineering": {
+      "company_count": 10,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 10
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.2,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 10
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Industrial: Equipment Manufacturing": {
+      "company_count": 19,
+      "Paid Maternity Leave": {
+        "mean": 9.89,
+        "min": 1.0,
+        "max": 50.0,
+        "n_reported": 19
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.88,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 17
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.22,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 9
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Industrial: Materials": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 7.6,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.6,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Industrial: Other": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 9.25,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.88,
+        "min": 4.0,
+        "max": 7.5,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Information Services: Diversified": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 15.21,
+        "min": 2.0,
+        "max": 32.5,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.86,
+        "min": 0.0,
+        "max": 20.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 18.0,
+        "min": 1.0,
+        "max": 35.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Information Services: Financial": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 16.57,
+        "min": 12.0,
+        "max": 24.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.36,
+        "min": 0.0,
+        "max": 20.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 23.0,
+        "min": 23.0,
+        "max": 23.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Information Services: Legal": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Information Services: Technology": {
+      "company_count": 47,
+      "Paid Maternity Leave": {
+        "mean": 11.49,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 47
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.33,
+        "min": 0.0,
+        "max": 36.0,
+        "n_reported": 43
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 1.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Insurance": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Insurance: Brokerage": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.83,
+        "min": 4.0,
+        "max": 12.5,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Insurance: Diversified": {
+      "company_count": 15,
+      "Paid Maternity Leave": {
+        "mean": 9.53,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 15
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.31,
+        "min": 0.0,
+        "max": 40.0,
+        "n_reported": 13
+      },
+      "Paid Paternity Leave": {
+        "mean": 9.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Insurance: Health": {
+      "company_count": 24,
+      "Paid Maternity Leave": {
+        "mean": 7.25,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 24
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.72,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 23
+      },
+      "Paid Paternity Leave": {
+        "mean": 3.75,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 4.67,
+        "min": 4.0,
+        "max": 6.0,
+        "n_reported": 3
+      }
+    },
+    "Insurance: Life": {
+      "company_count": 9,
+      "Paid Maternity Leave": {
+        "mean": 14.67,
+        "min": 5.0,
+        "max": 52.0,
+        "n_reported": 9
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.44,
+        "min": 0.0,
+        "max": 23.0,
+        "n_reported": 9
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Insurance: Property & Casualty": {
+      "company_count": 17,
+      "Paid Maternity Leave": {
+        "mean": 9.65,
+        "min": 1.0,
+        "max": 52.0,
+        "n_reported": 17
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.0,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 16
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.67,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Insurance: Reinsurance": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Law Firm": {
+      "company_count": 28,
+      "Paid Maternity Leave": {
+        "mean": 13.61,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 28
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.93,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 27
+      },
+      "Paid Paternity Leave": {
+        "mean": 7.33,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Legal Services": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Leisure, Travel & Tourism": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 10.75,
+        "min": 3.0,
+        "max": 18.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 1.5,
+        "min": 0.0,
+        "max": 4.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Maritime": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 14.0,
+        "min": 14.0,
+        "max": 14.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Media": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Media: Diversified": {
+      "company_count": 11,
+      "Paid Maternity Leave": {
+        "mean": 10.09,
+        "min": 2.0,
+        "max": 26.0,
+        "n_reported": 11
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.85,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 10
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Media: Entertainment": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 11.25,
+        "min": 1.0,
+        "max": 20.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.75,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Media: Magazines": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 9.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.0,
+        "min": 0.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Media: News": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 14.29,
+        "min": 2.0,
+        "max": 20.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.57,
+        "min": 0.0,
+        "max": 20.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Media: Television": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Natural Resources: Agriculture and Food Processing": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 9.62,
+        "min": 0.0,
+        "max": 20.5,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.75,
+        "min": 0.0,
+        "max": 13.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Agrochemical": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Chemicals": {
+      "company_count": 17,
+      "Paid Maternity Leave": {
+        "mean": 10.21,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 17
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.87,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 15
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 8.0,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 2
+      }
+    },
+    "Natural Resources: Diversified Energy": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 2.0,
+        "max": 10.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Electric & Gas Utility": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 16.07,
+        "min": 6.0,
+        "max": 26.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.0,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Electric Power Generation": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 3.0,
+        "max": 16.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 14.5,
+        "min": 1.5,
+        "max": 26.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 1.0,
+        "min": 0.0,
+        "max": 2.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Metals & Mining": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 17.6,
+        "min": 6.0,
+        "max": 30.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 11.33,
+        "min": 0.0,
+        "max": 34.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      }
+    },
+    "Natural Resources: Oil & Gas": {
+      "company_count": 9,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 9
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.25,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 8
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 2.0,
+        "max": 8.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Oilfield Services": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 8.2,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Natural Resources: Renewables & Environment": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Nonprofit: Charity": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 17.25,
+        "min": 5.0,
+        "max": 52.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.5,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Civic & Social": {
+      "company_count": 8,
+      "Paid Maternity Leave": {
+        "mean": 15.62,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 8
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.25,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 8
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Development": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Education": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 14.4,
+        "min": 12.0,
+        "max": 24.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.25,
+        "min": 0.0,
+        "max": 5.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 15.5,
+        "min": 7.0,
+        "max": 24.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Environmental Organization": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 9.67,
+        "min": 6.0,
+        "max": 15.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.33,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Finance": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 19.0,
+        "min": 12.0,
+        "max": 26.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Healthcare": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 5.33,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.67,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Human Rights Advocacy": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Humanitarian Aid Organization": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Legal": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 32.0,
+        "min": 12.0,
+        "max": 52.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Legal Services": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 9.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.0,
+        "min": 4.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Libraries": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Medical": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Museums": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 4.5,
+        "min": 1.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Political Organization": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Public Policy": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 5.5,
+        "min": 5.5,
+        "max": 5.5,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Religious": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Nonprofit: Research": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 8.86,
+        "min": 3.0,
+        "max": 16.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.14,
+        "min": 0.0,
+        "max": 9.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Science & Technology": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Nonprofit: Trade Organization": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 7.5,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.0,
+        "min": 0.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Packaging": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 7.5,
+        "min": 6.0,
+        "max": 9.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.0,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Pharmaceutical": {
+      "company_count": 22,
+      "Paid Maternity Leave": {
+        "mean": 9.68,
+        "min": 4.0,
+        "max": 16.0,
+        "n_reported": 22
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.81,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 21
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.4,
+        "min": 2.0,
+        "max": 8.0,
+        "n_reported": 5
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      }
+    },
+    "Pharmacies & Drug Stores": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 6.67,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 7.0,
+        "min": 3.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 24.0,
+        "min": 24.0,
+        "max": 24.0,
+        "n_reported": 1
+      }
+    },
+    "Philanthropy": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 22.4,
+        "min": 13.0,
+        "max": 32.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 0.0,
+        "max": 13.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 26.0,
+        "min": 26.0,
+        "max": 26.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Printing": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 40.0,
+        "min": 40.0,
+        "max": 40.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Public Relations": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 7.67,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.8,
+        "min": 0.0,
+        "max": 27.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Publishing": {
+      "company_count": 8,
+      "Paid Maternity Leave": {
+        "mean": 14.94,
+        "min": 6.0,
+        "max": 39.0,
+        "n_reported": 8
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.81,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 8
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.5,
+        "min": 1.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Real Estate": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.0,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_reported": 1
+      }
+    },
+    "Real Estate: Brokers": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 11.25,
+        "min": 4.0,
+        "max": 16.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 17.25,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Real Estate: Development & Management": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 8.29,
+        "min": 4.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.83,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      }
+    },
+    "Real Estate: Home Building": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 24.0,
+        "min": 24.0,
+        "max": 24.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Real Estate: Investment Trust": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 4.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.0,
+        "min": 2.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Real Estate: Management": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Real Estate: Other": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 17.0,
+        "min": 14.0,
+        "max": 20.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 19.0,
+        "min": 0.0,
+        "max": 38.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": 3.0,
+        "min": 2.0,
+        "max": 4.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Convenience Store": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Crafts, Fabrics & Party Supplies": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.0,
+        "min": 0.0,
+        "max": 20.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Department Store": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 10.21,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 12.33,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Discount Store": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 6.92,
+        "min": 3.5,
+        "max": 10.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.25,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Electronics": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 10.67,
+        "min": 2.0,
+        "max": 18.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 24.0,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Furniture & Home Improvement": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 9.42,
+        "min": 2.0,
+        "max": 26.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.17,
+        "min": 2.0,
+        "max": 8.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 5.0,
+        "min": 4.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: General Merchandise": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 10.33,
+        "min": 2.0,
+        "max": 27.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 15.6,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Jewelery": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 9.0,
+        "min": 9.0,
+        "max": 9.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Liquor": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Online": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 6.33,
+        "min": 3.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 4.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Other": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 7.0,
+        "min": 3.0,
+        "max": 10.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.4,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Shoes, Accessories and Apparel": {
+      "company_count": 28,
+      "Paid Maternity Leave": {
+        "mean": 8.86,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 28
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.08,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 25
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.5,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      }
+    },
+    "Retail: Stationary & Office Supplies": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 9.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 0.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Retail: Supermarket Company": {
+      "company_count": 7,
+      "Paid Maternity Leave": {
+        "mean": 6.43,
+        "min": 0.0,
+        "max": 15.0,
+        "n_reported": 7
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.75,
+        "min": 0.0,
+        "max": 15.0,
+        "n_reported": 6
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Services: Daycare": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 3.0,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Services: Other": {
+      "company_count": 8,
+      "Paid Maternity Leave": {
+        "mean": 13.5,
+        "min": 0.0,
+        "max": 30.0,
+        "n_reported": 8
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.79,
+        "min": 0.0,
+        "max": 6.5,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Services: Translation": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Services: Waste Management": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 6.5,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 9.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Sporting Goods": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Sports": {
+      "company_count": 2,
+      "Paid Maternity Leave": {
+        "mean": 8.5,
+        "min": 1.0,
+        "max": 16.0,
+        "n_reported": 2
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 2
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Technology": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 18.0,
+        "min": 18.0,
+        "max": 18.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Technology: B2B Tech Services": {
+      "company_count": 38,
+      "Paid Maternity Leave": {
+        "mean": 10.84,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 38
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.64,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 36
+      },
+      "Paid Paternity Leave": {
+        "mean": 9.88,
+        "min": 1.0,
+        "max": 26.0,
+        "n_reported": 8
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 6.0,
+        "min": 4.0,
+        "max": 8.0,
+        "n_reported": 2
+      }
+    },
+    "Technology: Consumer Internet": {
+      "company_count": 64,
+      "Paid Maternity Leave": {
+        "mean": 15.4,
+        "min": 1.0,
+        "max": 52.0,
+        "n_reported": 64
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.62,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 60
+      },
+      "Paid Paternity Leave": {
+        "mean": 13.94,
+        "min": 2.0,
+        "max": 24.0,
+        "n_reported": 18
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 9.25,
+        "min": 2.0,
+        "max": 24.0,
+        "n_reported": 4
+      }
+    },
+    "Technology: Financial Services": {
+      "company_count": 6,
+      "Paid Maternity Leave": {
+        "mean": 8.5,
+        "min": 2.0,
+        "max": 13.0,
+        "n_reported": 6
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 1.4,
+        "min": 0.0,
+        "max": 7.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 2.0,
+        "max": 6.0,
+        "n_reported": 4
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Technology: Gaming": {
+      "company_count": 5,
+      "Paid Maternity Leave": {
+        "mean": 15.4,
+        "min": 11.0,
+        "max": 26.0,
+        "n_reported": 5
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.1,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 5
+      },
+      "Paid Paternity Leave": {
+        "mean": 13.67,
+        "min": 11.0,
+        "max": 18.0,
+        "n_reported": 3
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.0,
+        "min": 12.0,
+        "max": 12.0,
+        "n_reported": 1
+      }
+    },
+    "Technology: Manufacturing": {
+      "company_count": 30,
+      "Paid Maternity Leave": {
+        "mean": 12.2,
+        "min": 1.0,
+        "max": 24.0,
+        "n_reported": 30
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.81,
+        "min": 0.0,
+        "max": 46.0,
+        "n_reported": 26
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.56,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 8
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Technology: Payments": {
+      "company_count": 10,
+      "Paid Maternity Leave": {
+        "mean": 13.1,
+        "min": 12.0,
+        "max": 16.0,
+        "n_reported": 10
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.7,
+        "min": 0.0,
+        "max": 40.0,
+        "n_reported": 10
+      },
+      "Paid Paternity Leave": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Technology: Research": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 12.67,
+        "min": 8.0,
+        "max": 18.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 1.33,
+        "min": 0.0,
+        "max": 4.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 1.5,
+        "min": 1.0,
+        "max": 2.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      }
+    },
+    "Technology: Security": {
+      "company_count": 10,
+      "Paid Maternity Leave": {
+        "mean": 11.0,
+        "min": 5.0,
+        "max": 18.0,
+        "n_reported": 10
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 3.9,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 10
+      },
+      "Paid Paternity Leave": {
+        "mean": 7.0,
+        "min": 6.0,
+        "max": 8.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Technology: Software": {
+      "company_count": 160,
+      "Paid Maternity Leave": {
+        "mean": 12.66,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 160
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 5.95,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 155
+      },
+      "Paid Paternity Leave": {
+        "mean": 9.26,
+        "min": 0.0,
+        "max": 26.0,
+        "n_reported": 25
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 12.86,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 7
+      }
+    },
+    "Telecommunications": {
+      "company_count": 19,
+      "Paid Maternity Leave": {
+        "mean": 11.39,
+        "min": 0.0,
+        "max": 24.0,
+        "n_reported": 19
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 7.79,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 19
+      },
+      "Paid Paternity Leave": {
+        "mean": 6.29,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 7
+      },
+      "Unpaid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      }
+    },
+    "Textiles": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Transportation: Bus": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 52.0,
+        "min": 52.0,
+        "max": 52.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Transportation: Couriers & Delivery": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 7.0,
+        "min": 2.0,
+        "max": 16.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 13.33,
+        "min": 4.0,
+        "max": 28.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 7.0,
+        "min": 2.0,
+        "max": 12.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Transportation: Freight & Logistics": {
+      "company_count": 9,
+      "Paid Maternity Leave": {
+        "mean": 4.83,
+        "min": 0.0,
+        "max": 16.0,
+        "n_reported": 9
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 10.71,
+        "min": 0.0,
+        "max": 52.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Transportation: Passenger Air": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 9.5,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Transportation: Rail": {
+      "company_count": 4,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 6.0,
+        "max": 16.0,
+        "n_reported": 4
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 2.0,
+        "min": 0.0,
+        "max": 6.0,
+        "n_reported": 4
+      },
+      "Paid Paternity Leave": {
+        "mean": 16.0,
+        "min": 16.0,
+        "max": 16.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Transportation: Rental": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 10.0,
+        "min": 6.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Unknown": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 25.67,
+        "min": 10.0,
+        "max": 52.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 14.0,
+        "min": 0.0,
+        "max": 40.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Utilities": {
+      "company_count": 1,
+      "Paid Maternity Leave": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "n_reported": 1
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "n_reported": 1
+      },
+      "Paid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Wellness & Fitness": {
+      "company_count": 3,
+      "Paid Maternity Leave": {
+        "mean": 10.67,
+        "min": 6.0,
+        "max": 14.0,
+        "n_reported": 3
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 8.0,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 3
+      },
+      "Paid Paternity Leave": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0,
+        "n_reported": 1
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    },
+    "Wholesale": {
+      "company_count": 9,
+      "Paid Maternity Leave": {
+        "mean": 6.44,
+        "min": 0.0,
+        "max": 14.0,
+        "n_reported": 9
+      },
+      "Unpaid Maternity Leave": {
+        "mean": 6.86,
+        "min": 0.0,
+        "max": 12.0,
+        "n_reported": 7
+      },
+      "Paid Paternity Leave": {
+        "mean": 1.0,
+        "min": 0.0,
+        "max": 2.0,
+        "n_reported": 2
+      },
+      "Unpaid Paternity Leave": {
+        "mean": null,
+        "min": null,
+        "max": null,
+        "n_reported": 0
+      }
+    }
+  },
+  "top_5_companies_by_total_paid_leave": [
+    {
+      "Company": "Grant Thornton",
+      "Industry": "Accounting Services",
+      "Paid Maternity Leave (weeks)": 51.0,
+      "Paid Paternity Leave (weeks)": 51.0,
+      "Total Paid Leave (weeks)": 102.0
+    },
+    {
+      "Company": "LAC-Group",
+      "Industry": "Information Services: Diversified",
+      "Paid Maternity Leave (weeks)": 32.5,
+      "Paid Paternity Leave (weeks)": 35.0,
+      "Total Paid Leave (weeks)": 67.5
+    },
+    {
+      "Company": "Flatiron Health",
+      "Industry": "Healthcare: Telemedicine",
+      "Paid Maternity Leave (weeks)": 30.0,
+      "Paid Paternity Leave (weeks)": 30.0,
+      "Total Paid Leave (weeks)": 60.0
+    },
+    {
+      "Company": "Cloudworkers",
+      "Industry": "Technology: Consumer Internet",
+      "Paid Maternity Leave (weeks)": 52.0,
+      "Paid Paternity Leave (weeks)": null,
+      "Total Paid Leave (weeks)": 52.0
+    },
+    {
+      "Company": "Scentsy",
+      "Industry": "Consumer Packaged Goods: Packaged Products",
+      "Paid Maternity Leave (weeks)": 52.0,
+      "Paid Paternity Leave (weeks)": null,
+      "Total Paid Leave (weeks)": 52.0
+    }
+  ]
+}
